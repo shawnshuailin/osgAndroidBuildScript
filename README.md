@@ -21,7 +21,9 @@ run ./buildOSGDependenciesAndroid.sh
 
 the script will build for platform 8,9,14 using selected NDK version, and build a compatible OSG dependency package for Android.
 
-Note: build currently curl, freetype, gdal, giflib, libjpeg, libpng, libtiff, zlib.
+libs: curl, freetype, gdal, giflib, libjpeg, libpng, libtiff, zlib.
+
+Note 1: all build profiles use gnustl_static, exceptions and rtti.
 
 Note 2: libpng use the built zlib (see the script).
 
