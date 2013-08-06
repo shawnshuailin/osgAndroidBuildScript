@@ -30,4 +30,12 @@ Note 2: libpng use the built zlib (see the script).
 Note 3: gdal build is only loading few drivers.
 
 OSG
-------------
+---
+
+copy a dependency package built above into a 3rdparty directory.
+run ./buildOSGAndroid.h
+
+compiled library will go to build-android-PLATFORM/precompiled
+
+Tested with NDKR8e and NDRK9
+
