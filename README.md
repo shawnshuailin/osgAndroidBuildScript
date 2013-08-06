@@ -33,6 +33,7 @@ OSG
 ---
 
 copy a dependency package built above into a 3rdparty directory.
+
 run ./buildOSGAndroid.h
 
 compiled library will go to build-android-PLATFORM/precompiled
