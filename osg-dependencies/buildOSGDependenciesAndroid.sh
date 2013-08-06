@@ -25,7 +25,7 @@ LibDepList=( zlib libpng libtiff libjpeg giflib freetype curl gdal )
 
 AndPlatformList=( 8 9 14 )
 #for NDKr9 and above
-#AndPlatform[2]='android-18'
+#AndPlatformList=( 8 9 14 18)
 
 echo "***********************************************"
 echo "OpenSceneGraph OpenGL ES 2.0 build dependencies"
