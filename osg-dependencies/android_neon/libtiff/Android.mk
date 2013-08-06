@@ -4,6 +4,8 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE := libtiff
 
+LOCAL_ARM_MODE := arm   
+
 ifeq ($(TARGET_ARCH_ABI),armeabi-v7a)
 LOCAL_ARM_NEON := true
 endif

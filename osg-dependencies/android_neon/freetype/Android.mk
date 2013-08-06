@@ -2,6 +2,10 @@ LOCAL_PATH:= $(call my-dir)
 
 include $(CLEAR_VARS)
 
+LOCAL_MODULE:= libft2
+
+LOCAL_ARM_MODE := arm   
+
 ifeq ($(TARGET_ARCH_ABI),armeabi-v7a)
 LOCAL_ARM_NEON := true
 endif
@@ -56,7 +60,5 @@ LOCAL_CFLAGS += -fPIC -DPIC
 LOCAL_CFLAGS += "-DFT2_BUILD_LIBRARY"
 
 LOCAL_CFLAGS += -O2
-
-LOCAL_MODULE:= libft2
 
 include $(BUILD_STATIC_LIBRARY)
